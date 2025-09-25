@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Pixel';
+    src: url('Minecraft.ttf') format('truetype');
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+    font-family: 'Pixel', sans-serif;
+}
+
+body {
+    color: aliceblue;
+    background-color: black
+}
