@@ -2,16 +2,29 @@
 
 @font-face {
     font-family:'Pixel';
-    src: url('Minecraft.ttf') format('truetype');
+    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
 }
 
 * {
     padding: 0px;
     border: 0px;
     font-family: 'Pixel', sans-serif;
+    font-size: 25px;
 }
 
 body {
     color: aliceblue;
     background-color: black
+}
+
+h1 {
+    font-size: 50px;
+}
+
+u {
+    color: brown;
+}
+
+a {
+    color: brown;
 }
