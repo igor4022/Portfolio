@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Pixel', sans-serif;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+main {
+    background-position: center;
+}
+
+.carta {
+    width: 450px;
+    position: absolute;
+}
+
+.voce {
+    width: 300px;
+    position: relative;
+    left: 75px;
+    top: 55px;
+    border: red solid 5px;
+}
+
+.cadastre {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.cadastre2 {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+
+.enviar {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    top: 70px;
+    left: 70px;
+}
+
+.enviar:hover {
+    background-color: rgb(255, 57, 57);
+}

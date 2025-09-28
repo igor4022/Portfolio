@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastre.css">
 </head>
 <body>
-    
+    <header>
+        <h1>CADASTRE-SE</h1>
+    </header>
+    <main>
+        <section>
+            <img class="carta" src="imagens/Carta_de _Cadasstro.jpg" alt="post">
+            <img class="voce" src="imagens/Carta_de_Cadastro_Logo.jpg" alt="">
+        </section>
+        <section>
+            <form action="cadastreio.php">
+                <label class="cadastre" for="cadastre">Nome:</label>
+                <input type="text" name="nome" class="cadastre"><br>
+
+                <label class="cadastre2" for="e-mail">E-mail</label>
+                <input type="email" name="email" class="cadastre2"><br>
+
+                <input class="enviar" type="submit" value="Enviar">
+                
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
