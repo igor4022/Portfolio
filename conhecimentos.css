@@ -20,6 +20,24 @@ div {
     width: 100%;
 }
 
+#html {
+    color: aliceblue;
+    position: absolute;
+    width: 350px;
+    top: 0px;
+    left: 270px;
+    font-size: 20px;
+}
+
+#css {
+    color: aliceblue;
+    position: absolute;
+    width: 350px;
+    top: 380px;
+    left: 270px;
+    font-size: 18px;
+}
+
 .carta {
     width: 250px;
     transition: .35s;
