@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Pixel', sans-serif;
+}
+
+img {
+    width: 500px;
+}
