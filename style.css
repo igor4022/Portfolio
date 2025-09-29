@@ -34,6 +34,7 @@ main {
 a:hover {
     color: burlywood;
     text-align: center;
+    font-size: 35px;
 }
 
 a {

@@ -18,13 +18,10 @@ body {
     font-size: 25px;
 }
 
-main {
-    background-position: center;
-}
-
 .carta {
     width: 450px;
     position: absolute;
+    
 }
 
 .voce {
@@ -38,13 +35,13 @@ main {
 .cadastre {
     position: relative;
     top: 50px;
-    left: 10px;
+    left: 70px;
 }
 
 .cadastre2 {
     position: relative;
     top: 50px;
-    left: 10px;
+    left: 70px;
 }
 
 .enviar {
