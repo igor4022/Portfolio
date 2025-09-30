@@ -46,12 +46,26 @@ button {
     width: 100px;
 }
 
+button:hover {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
 h1 {
     position: absolute;
     left: 200px;
     top: 138px;
-    color: rgb(255, 201, 129);
     text-align: center;
+}
+
+a {
+    color: rgb(255, 201, 129);
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    font-size: 35px;
 }
 
 p {
