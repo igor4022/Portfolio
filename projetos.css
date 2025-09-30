@@ -17,5 +17,22 @@ body {
 }
 
 img {
-    width: 500px;
+    position: relative;
+    width: 370px;
+    padding: 35px;
+    background-position: center;
+    left: 20%;
+    display: inline-block;
+  
+    
+}
+
+button {
+    background-color: brown;
+    position: relative;
+    font-family: 'Pixel', sans-serif;
+    padding: 10px;
+    width: 100px;
+    top: 50%;
+
 }
