@@ -14,11 +14,14 @@ body {
     background-color: black;
     color: aliceblue;
     font-family: 'Pixel', sans-serif;
+    position: absolute;
+    left: 57%;
+    transform: translate(-40%)
 }
 
 main {
     position: relative;
-    height: 30%;
+    padding: 20px;
 }
 
 .carta {
@@ -27,10 +30,17 @@ main {
 }
 
 button {
-    position: relative;
-    left: -200px;
-    top: -80px;
+    position: absolute;
+    left: 80px;
+    top: 230px;
     padding: 25px;
     width: 150px;
     background-color: rgb(248, 255, 184);
+}
+
+p {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    left: -100px;
 }
