@@ -8,13 +8,29 @@ const myObserver = new IntersectionObserver((verme) => {
     })
 })
 
-const elementos = document.querySelector('.hidden')
+const elementos = document.querySelectorAll('.hidden')
 
-const exemplo = document.getElementById('exemplo')
+elementos.forEach((elemen) => myObserver.observe(elemen))
 
-let teo = 'Criar sites e lojas virtuais: A combinação delas é a base para o desenvolvimento web completo.\nDesenvolver aplicativos WEB: Aplicações que funcionam no navegador, como sistemas de gestão ou ferramentas online. Fazer a interface de um sistema: Usando HTML, CSS e JavaScript para que o programa seja fácil de usar e visualmente agradável. Gerenciar o que acontece no servidor: Com PHP e Python, ele garante que a aplicação entenda os dados, processe informações e se comunique com o banco de dados. Criar inteligência artificial e automação: Python é ideal para tarefas de inteligência artificial, aprendizado de máquina e para automatizar processos. Desenvolver jogos online: JavaScript e Python também são usados na criação de jogos, especialmente os que rodam no navegador.'
+function texto() {
 
-function texto1() {
+    const exemplo1 = document.getElementById('exemplo1')
+    const exemplo2 = document.getElementById('exemplo2')
+    const exemplo3 = document.getElementById('exemplo3')
+    const exemplo4 = document.getElementById('exemplo4')
+    const exemplo5 = document.getElementById('exemplo5')
+    const exemplo6 = document.getElementById('exemplo6')
 
-    exemplo.intextContent = teo
+
+    exemplo1.textContent = 'Criar sites e lojas virtuais: A combinação delas é a base para o desenvolvimento web completo. '
+
+    exemplo2.textContent = 'Desenvolver aplicativos web: Aplicações que funcionam no navegador, como sistemas de gestão ou ferramentas online. '
+
+    exemplo3.textContent = 'Fazer a interface de um sistema: Usando HTML, CSS e JavaScript para que o programa seja fácil de usar e visualmente agradável. '
+
+    exemplo4.textContent = 'Gerenciar o que acontece no servidor: Com PHP e Python, ele garante que a aplicação "entenda" os dados, processe informações e se comunique com o banco de dados. '
+
+    exemplo5.textContent = 'Criar inteligência artificial e automação: Python é ideal para tarefas de inteligência artificial, aprendizado de máquina e para automatizar processos. '
+
+    exemplo6.textContent = 'esenvolver jogos online: JavaScript e Python também são usados na criação de jogos, especialmente os que rodam no navegador. '
 }
