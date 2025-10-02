@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-* {
-    padding: 0px;
-    border: 0px;
-}
-
 @font-face {
     font-family: 'Pixel';
     src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+    padding: 0px;
+    border: 0px;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     color: aliceblue;
     font-family: 'Pixel', sans-serif;
     position: absolute;
-    left: 57%;
+    left: 50%;
     transform: translate(-40%)
 }
 
@@ -31,7 +31,7 @@ main {
 
 button {
     position: absolute;
-    left: 45px;
+    left: 50px;
     top: 220px;
     padding: 25px;
     width: 150px;
