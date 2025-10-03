@@ -12,5 +12,13 @@
     <p>Caso esteja interessado é só me ligar</p>
 
     <img src="imagens/bemvindo-8.gif" alt="">
+    <?php 
+    $nome = $_POST['nome'];
+    $email  = $_POST['email'];
+
+    echo "Nome: $nome<br>";
+    echo "E-mail: $email<br>";
+    echo "Bem vindo $nome, meu número 47 9722-3437";
+    ?>
 </body>
 </html>
