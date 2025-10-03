@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php 
-        $nome = $_POST['nome'];
+        $nome = $_GET['nome'];
         $email = $_GET['email'];
 
         echo "CADASTRADO: <br>";
