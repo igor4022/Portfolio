@@ -19,37 +19,37 @@ body {
 }
 
 .carta {
+    left: 10%;
     width: 450px;
-    position: absolute;
+    position: relative;
     
 }
 
 .voce {
     width: 300px;
     position: relative;
-    left: 75px;
-    top: 55px;
+    top: -50%;
+    left: -75px;
     border: red solid 5px;
+    background-position: center;
 }
 
 .cadastre {
     position: relative;
-    top: 50px;
-    left: 70px;
+    left: -75px;
 }
 
 .cadastre2 {
     position: relative;
-    top: 50px;
-    left: 70px;
+    left: 75px;
 }
 
 .enviar {
     position: relative;
     width: 300px;
     height: 50px;
-    top: 70px;
-    left: 70px;
+    top: 100px;
+    left: -200px;
 }
 
 .enviar:hover {
