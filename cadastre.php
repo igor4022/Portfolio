@@ -11,11 +11,10 @@
         $nome = $_GET['nome'];
         $email = $_GET['email'];
 
-        echo "CADASTRADO";
-        echo "Nome: $nome <br>";
-        echo "E-mail: $email";
-
-        echo "MEU Número: 47 9722-3437"
+        echo "CADASTRADO: <br>";
+        echo "Nome: <strong>$nome</strong> <br>";
+        echo "E-mail: <strong>$email</strong><br>";
+        echo "MEU Número: <span><strong>(47) 9722-3437</strong>";
     ?> 
 </body>
 </html>
