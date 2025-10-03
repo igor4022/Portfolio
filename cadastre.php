@@ -25,6 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>Nome: " . $nome . "</p>";
     echo "<p>E-mail: " . $email . "</p>";
     echo "<p>Mensagem: " . $mensagem . "</p>";
+    echo "Meu número 47 9722-34237"
 
 } else {
     echo "Método de requisição inválido.";
