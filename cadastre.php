@@ -13,8 +13,8 @@
 
     <img src="imagens/bemvindo-8.gif" alt="">
     <?php 
-    $nome = $_POST['nome'];
-    $email  = $_POST['email'];
+    $nome = $_GET['nome'];
+    $email  = $_GET['email'];
 
     echo "Nome: $nome<br>";
     echo "E-mail: $email<br>";
