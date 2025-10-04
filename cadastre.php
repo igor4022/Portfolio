@@ -14,7 +14,7 @@
     <img src="imagens/bemvindo-8.gif" alt="">
     <?php 
     
-if ($_SERVER["REQUEST_METHOD"] === 'POST') {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Captura os dados do formulário
     $nome = htmlspecialchars($_POST["nome"]);
     $email = htmlspecialchars($_POST["email"]);
