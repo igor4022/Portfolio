@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>BEM-VINDO!</h1>
-    <p>Meu número: <strong>47 9722-3437</strong></p>
+    <p>Meu número: <strong>47 99722-3437</strong></p>
     <p>Caso esteja interessado é só me ligar</p>
 
     <img src="imagens/bemvindo-8.gif" alt="">
