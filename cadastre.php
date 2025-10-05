@@ -22,9 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Exemplo de processamento: Exibir os dados
     echo "<h1>Dados recebidos:</h1>";
-    echo "<p>Nome: " . $nome . "</p>";
-    echo "<p>E-mail: " . $email . "</p>";
-    echo "<p>Mensagem: " . $mensagem . "</p>";
+    echo "<p>Nome: $nome</p>";
+    echo "<p>E-mail: $email</p>";
+    echo "<p>Mensagem: $mensagem</p>";
 
 } else {
     echo "Método de requisição inválido.";
