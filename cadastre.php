@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>BEM-VINDO!</h1>
-    <p>(WhatsApp)Meu número: <strong>+55 47 99722-3437</strong></p>
+    <p>(WhatsApp)Meu número: <strong>+55 47 93382-1902</strong></p>
     <p>Caso esteja interessado é só me ligar</p>
 
     <img src="imagens/bemvindo-8.gif" alt="">
