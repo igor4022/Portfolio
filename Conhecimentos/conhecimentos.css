@@ -1,0 +1,355 @@
+@charset "TEC-8";
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('PixelifySans-VariableFont_wght.ttf') format(truetype);
+}
+
+* {
+    padding: 10px;
+    border: 0px;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Pixel', sans-serif;
+    left: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+    left: 200px;
+}
+
+#html {
+    position: relative;
+    width: 350px;
+    font-size: 20px;
+    
+}
+
+
+#css {
+    position: relative;
+    width: 350px;
+    font-size: 19px;
+    
+}
+
+#php {
+    position: relative;
+    width: 350px;
+    font-size: 20px;
+}
+
+p {
+    position: relative;
+    width: 350px;
+    right: 50%;
+    margin-top: -150px;
+    font-size: 20px;
+}
+
+#python {
+    position: relative;
+    width: 350px;
+    font-size: 18px;
+}
+
+.carta {
+    position: relative;
+    width: 250px;
+    right: 45%;
+    transition: .35s;
+    cursor: pointer;
+}
+
+/*Carta de HTML*/
+
+.html {
+    position: relative;
+    width: 170px;
+    right: 33%;
+    top: -320px;
+    padding: 0px;
+    border: rgb(255, 167, 15) solid;
+}
+
+.texthtml {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    background-color: rgb(255, 144, 8);
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+}
+
+/*Carta de CSS*/
+
+.css {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    right: 32%;
+    top: -320px;
+    padding: 0px;
+    border: rgb(1, 181, 246) solid;
+}
+
+.textcss {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    background-color: rgb(1, 181, 246);
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+}
+
+/*Carta de PHP*/
+
+.php {
+    position: relative;
+    width: 170px;
+    right: 32%;
+    top: -320px;
+    padding: 0px;
+    border: blueviolet solid;
+    
+}
+
+.textphp {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    background-color: blueviolet;
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+    
+}
+
+/*Carta de JavaScript*/
+
+.js {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    right: 32%;
+    top: -320px;
+    padding: 0px;
+    border: rgb(255, 255, 0) solid;
+}
+
+.textjs {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    background-color: rgb(255, 255, 0);
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+}
+
+/*Carta de Python*/
+
+.python {
+    width: 170px;
+    right: 32%;
+    top: -320px;
+    position: relative;
+    padding: 0px;
+    border: rgb(145, 255, 0) solid;
+}
+
+.textpython {
+    width: 170px;
+    height: 70px;
+    background-color: rgb(145, 255, 0);
+    position: relative;
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+}
+
+@media (min-width: 600px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        right: -10%;
+        margin-top: -335px;
+    }
+    
+    .carta {
+        right: 40%;
+    }
+
+    /*Carta de HTML*/
+
+    .html {
+        right: 77%;
+        top: -145px;
+    }
+
+    .texthtml {
+        right: 105%;
+        bottom: 80px;
+    }
+
+    /*Carta de CSS*/
+
+    .css {
+        right: 77%;
+        top: -135px;
+    }
+
+    .textcss {
+        right: 105%;
+        bottom: 80px;
+    }
+
+    /*Carta de PHP*/
+
+    .php {
+        right: 77%;
+        top: -135px;
+    }
+
+    .textphp {
+        right: 105%;
+        bottom: 80px;
+    }
+
+    /*Carta de JavaScript*/
+
+    .js {
+        right: 77%;
+        top: -135px;
+    }
+
+    .textjs {
+        right: 105%;
+        bottom: 80px;
+    }
+
+    /*Carta de Python*/
+
+    .python {
+        right: 77%;
+        top: -135px;
+    }
+
+    .textpython {
+       right: 105%;
+       bottom: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        margin-left: 100px;
+    }
+    
+    .carta {
+        right: 20%;
+    }
+
+    /*Carta de HTML*/
+
+    .html {
+        right: 56%;
+        top: -145px;
+    }
+
+    .texthtml {
+        right: 84%;
+        bottom: 80px;
+    }
+
+    /*Carta de CSS*/
+
+    .css {
+        right: 56%;
+        top: -135px;
+    }
+
+    .textcss {
+        right: 85%;
+        bottom: 80px;
+    }
+
+    /*Carta de PHP*/
+
+    .php {
+        right: 56%;
+        top: -135px;
+    }
+
+    .textphp {
+        right: 85%;
+        bottom: 80px;
+    }
+
+    /*Carta de JavaScript*/
+
+    .js {
+        right: 56%;
+        top: -135px;
+    }
+
+    .textjs {
+        right: 85%;
+        bottom: 80px;
+    }
+
+    /*Carta de Python*/
+
+    .python {
+        right: 56%;
+        top: -135px;
+    }
+
+    .textpython {
+       right: 85%;
+       bottom: 80px;
+    }
+}
+
+.hidden:hover > .carta:not(:hover) {
+    opacity: .4;
+    transform: translate(0.9);
+    width: 245px;
+
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    align-items: center;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
