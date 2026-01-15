@@ -14,12 +14,12 @@ elementos.forEach((elemen) => myObserver.observe(elemen))
 
 /*Conteúdo de explicação das cartas*/
 
-const html = document.getElementById('html')
-const css = document.getElementById('css')
-const php = document.getElementById('php')
-const js = document.getElementById('js')
-const python = document.querySelector('#python')
-const java = document.querySelector('#java')
+const html = document.querySelector('.text-html')
+const css = document.querySelector('.text-css')
+const php = document.querySelector('.text-php')
+const js = document.querySelector('.text-js')
+const python = document.querySelector('.text-python')
+const java = document.querySelector('.text-java')
 
 function texto1() {
 
@@ -35,6 +35,7 @@ function texto2() {
 function texto3() {
 
     php.textContent = 'PHP é uma linguagem de programação de código aberto e server-side, ideal para criar sites e aplicações web dinâmicas. Ela pode gerar conteúdo personalizado, interagir com bancos de dados, processar dados de formulários, gerir cookies e autenticar utilizadores. As suas principais características incluem ser simples, flexível, robusta e compatível com praticamente todos os sistemas operativos. '
+
 }
 
 function texto4() {

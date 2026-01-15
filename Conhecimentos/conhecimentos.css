@@ -84,7 +84,7 @@ p {
     font-size: 20px;
 }
 
-#python {
+.text-python {
     position: relative;
     width: 350px;
     font-size: 18px;
@@ -307,6 +307,16 @@ p {
        right: 105%;
        bottom: 80px;
     }
+
+    .java {
+        right: 77%;
+        top: -135px;
+    }
+
+    .textjava {
+        right: 105%;
+        bottom: 80px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -381,6 +391,20 @@ p {
     .textpython {
        right: 85%;
        bottom: 80px;
+    }
+    
+    .carta6 {
+        margin-top: 10px;
+    }
+
+    .java {
+        right: 56%;
+        top: -135px;
+    }
+
+    .textjava {
+        right: 85%;
+        bottom: 80px;
     }
 }
 
