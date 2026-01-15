@@ -18,13 +18,14 @@ const html = document.getElementById('html')
 const css = document.getElementById('css')
 const php = document.getElementById('php')
 const js = document.getElementById('js')
-const python = document.getElementById('python')
+const python = document.querySelector('#python')
+const java = document.querySelector('#java')
 
 function texto1() {
 
     html.textContent = ' É a linguagem padrão para criar a estrutura e o conteúdo de páginas web, usando tags para organizar texto, imagens, links e outros elementos. Ela define o que cada parte do conteúdo é (como um parágrafo ou um título), sendo o esqueleto básico da web. O HTML trabalha em conjunto com outras tecnologias, como o CSS para estilização e o JavaScript para interatividade, para criar sites completos. '
 
-   }
+}
 
 function texto2() {
 
@@ -44,4 +45,9 @@ function texto4() {
 function texto5() {
 
     python.textContent = 'Python é uma linguagem de programação de alto nível, orientada a objetos e fácil de aprender, conhecida pela sua sintaxe clara e legível. Ela pode ser usada para uma vasta gama de aplicações, incluindo desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e criação de aplicações desktop e jogos. A sua versatilidade e a grande quantidade de bibliotecas tornam-na popular para iniciantes e para projetos complexos. '
+}
+
+function texto6() {
+
+    java.textContent = 'Java é uma linguagem versátil para criar uma vasta gama de aplicações, desde sistemas empresariais robustos e back-ends web (incluindo microsserviços) até apps Android, softwares desktop, jogos e soluções de Big Data e IA, destacando-se pela portabilidade ("escreva uma vez, execute em qualquer lugar"), orientação a objetos e segurança, rodando em diversos sistemas operacionais graças à Máquina Virtual Java (JVM). '
 }

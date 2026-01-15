@@ -1,4 +1,4 @@
-@charset "TEC-8";
+@charset "UTF-8";
 
 @font-face {
     font-family: 'Pixel';
@@ -16,6 +16,32 @@ body {
     font-family: 'Pixel', sans-serif;
     left: 100%;
     overflow-x: hidden;
+}
+
+li, a {
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    font-size: 55px;
+}
+
+.voltar {
+    animation: voltar, .5s;
+}
+
+@keyframes voltar{
+    form {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translate3d(-32, 0, 0 );
+    }
 }
 
 h1 {
@@ -62,6 +88,12 @@ p {
     position: relative;
     width: 350px;
     font-size: 18px;
+}
+
+#java {
+    position: relative;
+    width: 350px;
+    font-size: 20px;
 }
 
 .carta {
@@ -176,6 +208,26 @@ p {
     height: 70px;
     background-color: rgb(145, 255, 0);
     position: relative;
+    right: 80%;
+    bottom: 250px;
+    font-family: 'Pixel', sans-serif;
+}
+
+.java {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    right: 32%;
+    top: -320px;
+    padding: 0px;
+    border: rgb(200, 161, 60) solid;
+}
+
+.textjava {
+    position: relative;
+    width: 170px;
+    height: 70px;
+    background-color: rgb(200, 161, 60);
     right: 80%;
     bottom: 250px;
     font-family: 'Pixel', sans-serif;
