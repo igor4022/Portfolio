@@ -1,20 +1,24 @@
-const myObserver = new IntersectionObserver((verme) => {
-    verme.forEach((ver) => {
-        if(ver.isIntersecting){
-            ver.target.classList.add('show')
-        } else {
-            ver.target.classList.remove('show')
-        }
+function animacaoEntrada() {
+
+    const myObserver = new IntersectionObserver((verme) => {
+        verme.forEach((ver) => {
+            if(ver.isIntersecting){
+                ver.target.classList.add('show')
+            } else {
+                ver.target.classList.remove('show')
+            }
+        })
     })
-})
 
 
-const elementos = document.querySelectorAll('.hidden')
+    const elementos = document.querySelectorAll('.hidden')
 
-elementos.forEach((elemen) => myObserver.observe(elemen))
+    elementos.forEach((elemen) => myObserver.observe(elemen))
+}
+
+animacaoEntrada()
 
 /*Conteúdo de explicação das cartas*/
-function TextoExemplos() {
 
     const html = document.querySelector('.text-html')
     const css = document.querySelector('.text-css')
@@ -22,6 +26,7 @@ function TextoExemplos() {
     const js = document.querySelector('.text-js')
     const python = document.querySelector('.text-python')
     const java = document.querySelector('.text-java')
+
 
     function texto1() {
 
@@ -54,17 +59,29 @@ function TextoExemplos() {
 
         java.textContent = 'Java é uma linguagem versátil para criar uma vasta gama de aplicações, desde sistemas empresariais robustos e back-ends web (incluindo microsserviços) até apps Android, softwares desktop, jogos e soluções de Big Data e IA, destacando-se pela portabilidade ("escreva uma vez, execute em qualquer lugar"), orientação a objetos e segurança, rodando em diversos sistemas operacionais graças à Máquina Virtual Java (JVM). '
     }
+
+function initSomClickBtn() {
+
+    const botao = document.querySelectorAll('button')
+    const somBtn = new Audio('sons/0115.mp4')
+
+    function somClickBtn() {
+
+        somBtn.play()
+    }
+
+    botao.forEach((bton) => {
+        bton.addEventListener('click', somClickBtn)
+    })
 }
 
-TextoExemplos()
+initSomClickBtn()
 
-const botao = document.querySelectorAll('button')
-const somBtn = new Audio('Conhecimentos/sons/surprised-videogame-sfx-423628.mp3')
+const fundo = document.querySelector('body')
+let somFundo = new Audio('sons/chill-drum-loop-6887.mp3')
 
-function somClickBtn() {
-    somBtn.play()
+function musicaFundo() {
+    somFundo.play()
 }
 
-botao.forEach((btn) => {
-    btn.addEventListener('click', somClickBtn)
-})
+window.addEventListener('mousemove', musicaFundo)
