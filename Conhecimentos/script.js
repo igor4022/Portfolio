@@ -29,19 +29,9 @@ animacaoEntrada()
     const python = document.querySelector('.text-python')
     const java = document.querySelector('.text-java')
 
-    function Texto(texto) {
-
-        const bloco = document.createElement('p')
-        this.texto = texto
-        bloco.classList.add(texto)
-        this.texto.appendChild(bloco)
-        
+    function texto1() {
+        html.textContent = 'cria e estrutura o conteúdo das páginas web, usando "tags" para definir elementos como títulos, parágrafos, imagens, links e formulários, funcionando como o esqueleto de um site para organizar a informação visualmente e torná-la compreensível para navegadores e mecanismos de busca. É a base da web, permitindo a inserção de conteúdo e a conexão de informações através de hipertextos, sendo melhor utilizada em conjunto com CSS (para estilo) e JavaScript (para interatividade). '
     }
-
-    const texto1 = new Texto(html)
-
-    
-
 
     function texto2() {
 
@@ -82,14 +72,8 @@ function initSomClickBtn() {
     botao.forEach((bton) => {
         bton.addEventListener('click', somClickBtn)
     })
-}
 
-initSomClickBtn()
-
-function initMusicaFundo() {
-
-    const fundo = document.querySelector('body')
-    let somFundo = new Audio('sons/chill-drum-loop-6887.mp3')
+    const somFundo = new Audio('sons/chill-drum-loop-6887.mp3')
 
     function musicaFundo() {
         somFundo.play()
@@ -98,4 +82,4 @@ function initMusicaFundo() {
     window.addEventListener('mousemove', musicaFundo)
 }
 
-initMusicaFundo()
+initSomClickBtn()

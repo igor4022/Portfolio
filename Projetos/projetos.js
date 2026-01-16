@@ -19,6 +19,8 @@ animacaoEntrada()
 
 /*Texto dos projetos quando aperta o botão*/
 
+const loja = document.querySelector('.loja')
+const truco = document.querySelector('.truco')
 const calculadora = document.getElementById('calculadora')
 const login = document.getElementById('login')
 const jogo = document.getElementById('jogo')
@@ -27,24 +29,70 @@ const relogio = document.getElementById('relogio')
 
 function texto1() {
 
-    calculadora.textContent = 'Uma calculadora digital que pode executar ecuações basícas.'
+    loja.textContent = 'uma loja virtual simples'
 }
+
 function texto2() {
 
-    login.textContent = 'Um login feito para indicar e autenticar um usuário em uma sistema digital.'
+    truco.textContent = 'Um contador de truco'
 }
 
 function texto3() {
 
-    jogo.textContent = 'Um jogo simples que é inspirado nas funções do jodo do dinossauro do Google.'
+    calculadora.textContent = 'Uma calculadora que faz ecuações básicas'
 }
 
 function texto4() {
 
-    cordel.textContent = 'Um pequeno site que fala sobre um poema e o divulga.'
+    login.textContent = 'Uma tela de login'
 }
 
 function texto5() {
 
+    jogo.textContent = 'Um jogo simples que é inspirado nas funções do jogo do dinossauro do Google.'
+}
+
+function texto6() {
+
+    cordel.textContent = 'Um pequeno site que fala sobre um poema e o divulga.'
+}
+
+function texto7() {
+
     relogio.textContent = 'Um relogio de manual mas que na verda é digital.'
 }
+
+
+
+function efeitosSonoros() {
+
+    const botao = document.querySelectorAll('button')
+    const somBotao = new Audio('sons/0116.mp4')
+
+    function somBtnFundo() {
+
+        somBotao.play()
+    }
+
+    botao.forEach((btn) => {
+
+        btn.addEventListener('click', somBtnFundo)
+    })
+
+    const fita = document.querySelectorAll('a')
+    const somFundo = new Audio('sons/8bit-music-for-game-68698.mp3')
+
+    function somMusicFundo() {
+
+        somFundo.play()
+    }
+
+    fita.forEach((fit) => {
+
+        fit.addEventListener('click', somBtnFundo)
+    })
+
+    window.addEventListener('mousemove', somMusicFundo)
+}
+
+efeitosSonoros()

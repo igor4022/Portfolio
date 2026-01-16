@@ -16,6 +16,7 @@ body {
     color: aliceblue;
     text-align: center;
     font-size: 25px;
+    overflow-y: hidden;
 }
 
 .carta {
@@ -27,7 +28,6 @@ body {
 
 .voce {
     width: 300px;
-    position: relative;
     top: -50%;
     left: -75px;
     border: red solid 5px;
@@ -36,12 +36,10 @@ body {
 
 .cadastre {
     position: relative;
-    left: -75px;
 }
 
 .cadastre2 {
     position: relative;
-    left: -75px;
 }
 
 .enviar {
@@ -49,12 +47,10 @@ body {
     width: 300px;
     height: 50px;
     top: 70px;
-    left: -80px;
 }
 
 .mensagem {
     position: relative;
-    left: -75px;
     top: 35px;
 }
 
@@ -64,10 +60,9 @@ body {
 
 button{
     position: relative;
-    left: -75px;
     padding: 2px;
     font-size: 20px;
-    top: 100px;
+    top: 80px;
 }
 
 a {

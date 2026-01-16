@@ -84,6 +84,40 @@ p {
     left: 45px;
 }
 
+@media (min-width: 720px) {
+
+    button {
+        left: -325px;
+    }
+
+    p {
+        left: 35px;
+    }
+
+    .reverterText {
+        left: -30px;
+    }
+
+    .reverterBtn {
+        right: -20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    header > h1 {
+        left: -170px;
+    }
+
+    .fita {
+        left: 120px;
+    }
+
+    h1 {
+        left: 220px;
+    }
+}
+
 .hidden {
     opacity: 0;
     filter: blur(15px);
