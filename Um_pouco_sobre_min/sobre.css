@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'Pixel';
-    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+    src: url('../PixelifySans-VariableFont_wght.ttf') format('truetype');
 }
 
 * {

@@ -59,7 +59,7 @@ animacaoEntrada()
         java.textContent = 'Java é uma linguagem versátil para criar uma vasta gama de aplicações, desde sistemas empresariais robustos e back-ends web (incluindo microsserviços) até apps Android, softwares desktop, jogos e soluções de Big Data e IA, destacando-se pela portabilidade ("escreva uma vez, execute em qualquer lugar"), orientação a objetos e segurança, rodando em diversos sistemas operacionais graças à Máquina Virtual Java (JVM). '
     }
 
-function initSomClickBtn() {
+function initFundoSonoros() {
 
     const botao = document.querySelectorAll('button')
     const somBtn = new Audio('sons/0115.mp4')
@@ -82,4 +82,4 @@ function initSomClickBtn() {
     window.addEventListener('mousemove', musicaFundo)
 }
 
-initSomClickBtn()
+initFundoSonoros()

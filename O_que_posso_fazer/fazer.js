@@ -1,16 +1,21 @@
-const myObserver = new IntersectionObserver((verme) => {
-    verme.forEach((ver) => {
-        if(ver.isIntersecting){
-            ver.target.classList.add('show')
-        } else {
-            ver.target.classList.remove('show')
-        }
+function animacaoEntrada() {
+
+    const myObserver = new IntersectionObserver((verme) => {
+        verme.forEach((ver) => {
+            if(ver.isIntersecting){
+                ver.target.classList.add('show')
+            } else {
+                ver.target.classList.remove('show')
+            }
+        })
     })
-})
 
-const elementos = document.querySelectorAll('.hidden')
+    const elementos = document.querySelectorAll('.hidden')
 
-elementos.forEach((elemen) => myObserver.observe(elemen))
+    elementos.forEach((elemen) => myObserver.observe(elemen))
+}
+
+animacaoEntrada()
 
 function texto() {
 
@@ -34,3 +39,18 @@ function texto() {
 
     exemplo6.textContent = 'esenvolver jogos online: JavaScript e Python também são usados na criação de jogos, especialmente os que rodam no navegador. '
 }
+
+function somClickBotao() {
+
+    const botao = document.querySelector('button') 
+    const somBtn = new Audio('sons/game-show-correct-tick-sound-416167.mp3')
+
+    function somClickBtn() {
+
+        somBtn.play()
+    }
+
+    botao.addEventListener('click', somClickBtn)
+}
+
+somClickBotao()
