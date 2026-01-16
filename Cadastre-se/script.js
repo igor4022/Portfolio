@@ -10,3 +10,30 @@ function btnReserva() {
 }
 
 botao.addEventListener('click', btnReserva)
+
+animacaoEntrada()
+
+function initFundoSonoros() {
+
+    const botao = document.querySelectorAll('input')
+    const somBtn = new Audio('sons/0116.mp4')
+
+    function somClickBtn() {
+
+        somBtn.play()
+    }
+
+    botao.forEach((bton) => {
+        bton.addEventListener('mousemove', somClickBtn)
+    })
+
+    const somFundo = new Audio('sons/static-drone-ambient-258064.mp3')
+
+    function musicaFundo() {
+        somFundo.play()
+    }
+
+    window.addEventListener('mousemove', musicaFundo)
+}
+
+initFundoSonoros()

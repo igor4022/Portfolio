@@ -31,7 +31,7 @@ function initFundoSonoros() {
         bton.addEventListener('click', somClickBtn)
     })
 
-    const somFundo = new Audio('sons/chill-drum-loop-6887.mp3')
+    const somFundo = new Audio('sons/merx-market-song-33936.mp3')
 
     function musicaFundo() {
         somFundo.play()
