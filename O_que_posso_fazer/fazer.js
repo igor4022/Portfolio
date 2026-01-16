@@ -27,30 +27,51 @@ function texto() {
     const exemplo6 = document.getElementById('exemplo6')
 
 
-    exemplo1.textContent = 'Criar sites e lojas virtuais: A combinação delas é a base para o desenvolvimento web completo. '
+    exemplo1.innerHTML = '<span>Criar sites e lojas virtuais:</span> A combinação delas é a base para o desenvolvimento web completo.'
 
-    exemplo2.textContent = 'Desenvolver aplicativos web: Aplicações que funcionam no navegador, como sistemas de gestão ou ferramentas online. '
+    exemplo2.innerHTML = '<span>Desenvolver aplicativos web:</span> Aplicações que funcionam no navegador, como sistemas de gestão ou ferramentas online.'
 
-    exemplo3.textContent = 'Fazer a interface de um sistema: Usando HTML, CSS e JavaScript para que o programa seja fácil de usar e visualmente agradável. '
+    exemplo3.innerHTML = '<span>Fazer a interface de um sistema:</span> Usando HTML, CSS e JavaScript para que o programa seja fácil de usar e visualmente agradável. '
 
-    exemplo4.textContent = 'Gerenciar o que acontece no servidor: Com PHP e Python, ele garante que a aplicação "entenda" os dados, processe informações e se comunique com o banco de dados. '
+    exemplo4.innerHTML = '<span>Gerenciar o que acontece no servidor:</span> Com PHP e Python, ele garante que a aplicação "entenda" os dados, processe informações e se comunique com o banco de dados. '
 
-    exemplo5.textContent = 'Criar inteligência artificial e automação: Python é ideal para tarefas de inteligência artificial, aprendizado de máquina e para automatizar processos. '
+    exemplo5.innerHTML = '<span>Criar inteligência artificial e automação:</span> Python é ideal para tarefas de inteligência artificial, aprendizado de máquina e para automatizar processos. '
 
-    exemplo6.textContent = 'esenvolver jogos online: JavaScript e Python também são usados na criação de jogos, especialmente os que rodam no navegador. '
+    exemplo6.innerHTML = '<span>esenvolver jogos online:</span> JavaScript e Python também são usados na criação de jogos, especialmente os que rodam no navegador. '
 }
 
-function somClickBotao() {
+function initFundoSonoros() {
 
-    const botao = document.querySelector('button') 
+    const botao = document.querySelectorAll('button')
     const somBtn = new Audio('sons/game-show-correct-tick-sound-416167.mp3')
 
     function somClickBtn() {
-
         somBtn.play()
     }
 
-    botao.addEventListener('click', somClickBtn)
+    botao.forEach((bton) => {
+        bton.addEventListener('click', somClickBtn)
+    })
+
+    const somFundo = new Audio('sons/mysterious-drone-background-190256.mp3')
+
+    function musicaFundo() {
+        somFundo.play()
+    }
+
+
+    window.addEventListener('mousemove', musicaFundo)
+
+    const texto = document.querySelectorAll('p')
+    const somMove = new Audio('sons/0116.mp4')
+
+    function somMouseFundo() {
+        somMove.play()
+    }
+
+    texto.forEach((txt) => {
+        txt.addEventListener('mouseenter', somMouseFundo)
+    })
 }
 
-somClickBotao()
+initFundoSonoros()
