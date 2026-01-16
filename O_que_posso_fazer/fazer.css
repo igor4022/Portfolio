@@ -46,6 +46,29 @@ p {
     font-size: 25px;
 }
 
+@media (min-width: 720px) {
+
+    
+    p {
+        width: -250%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .carta {
+        left: 50px;
+    }
+
+    button {
+        left: 100px;
+    }
+
+    p {
+        width: 180%;
+    }
+}
+
 .hidden {
     opacity: 0;
     filter: blur(15px);
@@ -56,6 +79,6 @@ p {
 .show {
     opacity: 1;
     filter: blur(0);
-    transform: translateX(0);
+    transform: translateX(-30px);
     transition: all 2s;
 }
