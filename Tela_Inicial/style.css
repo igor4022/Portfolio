@@ -13,6 +13,8 @@
 
 body {
     background-color: black;
+    overflow: hidden;
+    height: 100%;
 }
 
 .btnLigado {
