@@ -16,6 +16,7 @@ body {
     color: aliceblue;
     font-family: 'Pixel', sans-serif;
     left: 10%;
+    height: 100vh;
     overflow-x: hidden;
 }
 
