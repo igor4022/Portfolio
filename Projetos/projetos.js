@@ -83,7 +83,7 @@ function efeitosSonoros() {
     const somFundo = new Audio('sons/8bit-music-for-game-68698.mp3')
 
     function somMusicFundo() {
-
+        somFundo.loop = true
         somFundo.play()
     }
 

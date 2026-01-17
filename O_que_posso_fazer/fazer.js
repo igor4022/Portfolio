@@ -1,9 +1,11 @@
 function animacaoEntrada() {
 
+    const somCarta = new Audio('sons/9fwticq5dm-transition-sfx-2.mp3')
     const myObserver = new IntersectionObserver((verme) => {
         verme.forEach((ver) => {
             if(ver.isIntersecting){
                 ver.target.classList.add('show')
+                somCarta.play()
             } else {
                 ver.target.classList.remove('show')
             }
@@ -13,6 +15,7 @@ function animacaoEntrada() {
     const elementos = document.querySelectorAll('.hidden')
 
     elementos.forEach((elemen) => myObserver.observe(elemen))
+
 }
 
 animacaoEntrada()
@@ -56,6 +59,7 @@ function initFundoSonoros() {
     const somFundo = new Audio('sons/mysterious-drone-background-190256.mp3')
 
     function musicaFundo() {
+        somFundo.loop = true
         somFundo.play()
     }
 

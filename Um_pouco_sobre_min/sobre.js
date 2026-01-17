@@ -34,6 +34,7 @@ function initFundoSonoros() {
     const somFundo = new Audio('sons/merx-market-song-33936.mp3')
 
     function musicaFundo() {
+        somFundo.loop = true
         somFundo.play()
     }
 

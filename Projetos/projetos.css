@@ -18,6 +18,17 @@ body {
     left: 10%;
 }
 
+a:hover.btnSaida {
+    width: 0px;
+    color: brown;
+}
+
+a.btnSaida {
+    text-decoration: none;
+    text-align: 50px;
+    cursor: pointer;
+}
+
 header > h1 {
    text-align: center;
    position: relative;

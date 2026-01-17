@@ -10,6 +10,7 @@
     border: 0px;
 }
 
+
 body {
     background-color: black;
     color: aliceblue;
@@ -17,6 +18,15 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-40%)
+}
+
+.btnSaida {
+    text-decoration: none;
+    text-align: 50px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: -100px;
 }
 
 main {
@@ -56,13 +66,20 @@ span {
 
 @media (min-width: 720px) {
 
-    
+    .btnSaida {
+        margin: -230px;
+    }
+
     p {
         width: -250%;
     }
 }
 
 @media (min-width: 1200px) {
+
+    .btnSaida {
+        margin: -430px;
+    }
 
     .carta {
         left: 50px;

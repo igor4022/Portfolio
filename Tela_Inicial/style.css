@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'Pixel';
-    src: url('PixelifySans-VariableFont_wght.ttf') format('truetype');
+    src: url('../PixelifySans-VariableFont_wght.ttf') format('truetype');
 }
 
 * {
@@ -13,6 +13,22 @@
 
 body {
     background-color: black;
+}
+
+.btnLigado {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnDesligado {
+    padding: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 img {

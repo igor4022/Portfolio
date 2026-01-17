@@ -27,7 +27,7 @@ function initFundoSonoros() {
         bton.addEventListener('mousemove', somClickBtn)
     })
 
-    const somFundo = new Audio('sons/static-drone-ambient-258064.mp3')
+    const somFundo = new Audio('Cadastre-se/sons/static-drone-ambient-258064.mp3')
 
     function musicaFundo() {
         somFundo.play()
