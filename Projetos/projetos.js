@@ -1,9 +1,11 @@
 function animacaoEntrada() {
 
+    const somCarta = new Audio('sons/9fwticq5dm-transition-sfx-2.mp3')
     const myObserver = new IntersectionObserver((verme) => {
         verme.forEach((ver) => {
             if(ver.isIntersecting){
                 ver.target.classList.add('show')
+                somCarta.play()
             } else {
                 ver.target.classList.remove('show')
             }

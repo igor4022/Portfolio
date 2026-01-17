@@ -16,9 +16,10 @@ body {
     color: aliceblue;
     font-family: 'Pixel', sans-serif;
     left: 10%;
+    overflow-x: hidden;
 }
 
-a:hover.btnSaida {
+a:hover {
     width: 0px;
     color: brown;
 }
