@@ -24,7 +24,7 @@ a:hover {
     color: brown;
 }
 
-a.btnSaida {
+.btnSaida {
     text-decoration: none;
     text-align: 50px;
     cursor: pointer;
@@ -64,6 +64,7 @@ button {
     padding: 10px;
     left: 110px;
     width: 100px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -81,6 +82,7 @@ h1 {
 a {
     color: rgb(255, 201, 129);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
