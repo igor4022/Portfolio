@@ -19,12 +19,21 @@ body {
 
 .btnSaida {
     text-decoration: none;
-    text-align: 50px;
+    font-size: 50px;
+    color: aliceblue;
     cursor: pointer;
+}
+
+.btnSaida:hover {
+    font-size: 55px;
 }
 
 h1 {
     font-size: 50px;
+}
+
+p {
+    width: 100%;
 }
 
 u {

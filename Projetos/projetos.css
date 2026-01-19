@@ -19,15 +19,24 @@ body {
     overflow-x: hidden;
 }
 
-a:hover {
-    width: 0px;
+.fita {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.fita:hover {
     color: brown;
 }
 
 .btnSaida {
     text-decoration: none;
-    text-align: 50px;
+    font-size: 50px;
+    color: aliceblue;
     cursor: pointer;
+}
+
+.btnSaida:hover {
+    font-size: 55px;
 }
 
 header > h1 {
@@ -79,13 +88,13 @@ h1 {
     text-align: center;
 }
 
-a {
+.textoFita {
     color: rgb(255, 201, 129);
     text-decoration: none;
     cursor: pointer;
 }
 
-a:hover {
+.textoFita:hover {
     color: brown;
     font-size: 35px;
 }

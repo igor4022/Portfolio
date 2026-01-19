@@ -20,6 +20,10 @@ body {
     transform: translate(-40%)
 }
 
+a:hover {
+    font-size: 55px;
+}
+
 .btnSaida {
     text-decoration: none;
     text-align: 50px;
@@ -51,8 +55,8 @@ button {
 p {
     position: relative;
     padding: 20px;
-    width: 150%;
-    left: -50%;
+    width: 130%;
+    left: -20%;
     font-size: 25px;
 }
 
