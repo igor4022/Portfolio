@@ -21,8 +21,20 @@ body {
 
 .btnSaida {
     text-decoration: none;
-    text-align: 50px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: aliceblue;
     cursor: pointer;
+}
+
+.btnSaida:hover {
+    font-size: 55px;
+    color: aliceblue;
+}
+
+h1 {
+    margin-top: -15px;
 }
 
 .carta {
@@ -52,12 +64,12 @@ body {
     position: relative;
     width: 300px;
     height: 50px;
-    top: 70px;
+    top: 40px;
 }
 
 .mensagem {
     position: relative;
-    top: 35px;
+    top:10px;
 }
 
 .enviar:hover {
@@ -69,18 +81,16 @@ button{
     padding: 2px;
     font-size: 20px;
     top: 80px;
-    background-color: black;
 }
 
-a {
-    text-decoration: none;
+.ative {
+    position: relative;
+    top: -50px;
     background-color: aliceblue;
     color: black;
-    width: 0px;
-    height: 0px;
 }
 
-a:hover {
+.avite:hover {
     color: brown;
 }
 
